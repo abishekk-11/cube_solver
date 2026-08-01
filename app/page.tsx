@@ -1170,9 +1170,15 @@ export default function Home() {
           .filter((entry) => entry.isIntersecting)
           .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-        if (currentSection) {
-          const nextStage = Number(currentSection.target.dataset.stage);
-          const nextMove = Number(currentSection.target.dataset.move);
+  if (currentSection) {
+  const target = currentSection.target;
+
+  if (!(target instanceof HTMLElement)) {
+    return;
+  }
+
+  const nextStage = Number(target.dataset.stage);
+  const nextMove = Number(target.dataset.move);
 
           if (
             pendingStageRef.current !== null &&
