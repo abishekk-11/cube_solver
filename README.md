@@ -28,6 +28,10 @@ Cube Atlas follows this beginner-friendly progression:
 6. **Orient Yellow Corners** — make the full yellow face.
 7. **Position Yellow Corners** — match the completed yellow corners to their side center.
 8. **Finish Yellow Edges** — cycle the final edges to complete the cube.
+   
+##Live Demo
+Deployed on Vercel: https://cube-solver-ec29-35fvp1do9-abishekk-11s-projects.vercel.app
+
 
 ## Tech stack
 
