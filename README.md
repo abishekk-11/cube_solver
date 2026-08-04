@@ -1,8 +1,8 @@
 # Cube Atlas — Interactive 3×3 Rubik's Cube Guide
 
-Cube Atlas is an interactive browser experience for learning to solve a 3×3 Rubik's Cube with the classic Daisy-first beginner method. Start with a solved cube, click it to generate a valid scramble, and work through a guided eight stage lesson where each scroll position corresponds to a deliberate face turn.
+Cube Atlas is an interactive browser experience for learning to solve a 3×3 Rubik's Cube with the classic Daisy first beginner method. Start with a solved cube, click it to generate a valid scramble, and work through a guided eight stage lesson where each scroll position corresponds to a deliberate face turn.
 
-Built as a front end portfolio project, Cube Atlas combines a manipulable 3D cube, step-by-step move animations, visual turn diagrams, and plain language positioning guidance. It is designed to make the logic behind each stage easier to follow—not just present a long list of notation.
+Built as a front end portfolio project, Cube Atlas combines a manipulable 3D cube, step by step move animations, visual turn diagrams, and plain language positioning guidance. It is designed to make the logic behind each stage easier to follow and not just present a long list of notation.
 
 > Cube Atlas is an educational guide, not a speedcubing solver or a guarantee that one fixed algorithm applies to every physical cube position. Always follow the positioning instructions before making an algorithmic turn.
 
@@ -10,7 +10,7 @@ Built as a front end portfolio project, Cube Atlas combines a manipulable 3D cub
 
 - Starts from a solved 3×3 cube and creates a legal 18-move scramble when the cube is clicked.
 - Lets users drag the cube to inspect its sides in 3D.
-- Teaches the official Daisy-first route one stage at a time, with each stage unlocking after the preceding stage is complete.
+- Teaches the official Daisy first route one stage at a time, with each stage unlocking after the preceding stage is complete.
 - Uses long, scroll driven move panels: scroll downward to play the next turn and upward to reverse it.
 - Shows face colored diagrams, arrow directions, conventional cube notation, and the active move alongside the live cube.
 - Explains important setup decisions, including when to use a left or right insertion, when to flip the cube, and how to handle common edge and corner cases.
